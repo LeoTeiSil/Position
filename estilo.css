@@ -1,0 +1,73 @@
+.box{
+    width: 500px;
+    height: 500px;
+    border: 5px solid red;
+    position: relative;
+}
+
+.quadro01,.quadro02,.quadro03,.quadro04,.quadro05{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.quadro01{
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+
+.quadro02{
+    background-color: blue;
+    top: 0;
+    right: 0;
+}
+
+.quadro03{
+    background-color: chocolate;
+    bottom: 0;
+    left: 0;
+}
+
+.quadro04{
+    background-color: darkgreen;
+    bottom: 0;
+    right: 0; 
+}
+
+.quadro05{
+    background-color: pink;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    vertical-align: middle
+}
+
+.quadro01 span{
+    font-size: 24px;
+    color: #fff; 
+}
+
+.quadro02 span{
+    font-size: 24px;
+    color: #fff;
+} 
+
+.quadro03 span{
+    font-size: 24px;
+    color: #fff;
+}
+
+.quadro04 span{
+    font-size: 24px;
+    color: #fff;
+}
+
+.quadro05 span{
+    font-size: 24px;
+    color: #fff;
+    line-height: 100px;
+   
+    
+}
